@@ -42,13 +42,4 @@ Here are all 11 configurations I compared, ordered by price. Each has **32GB RAM
 | 10 | ASUS ROG Strix G16 (Ryzen) | RTX 5070 | Ryzen 9 9955HX | 16-inch 2.5K IPS, 300Hz | $2,599.00 | [Link](https://www.amazon.com/dp/B0H5V1FR3D) |
 | 11 | ASUS ROG Strix G16 G615LR-AS96 (Intel) | RTX 5070 Ti | Core Ultra 9 275HX | 16-inch 2.5K, 240Hz | $2,599.00 | [Link](https://www.amazon.com/dp/B0DW1X5YCQ) |
 
-## Other listings I ruled out
-
-| Laptop / listing | Quoted price | Why it was ruled out | Amazon |
-| --- | ---: | --- | --- |
-| GIGABYTE A16, RTX 5060, 1TB SSD + 1TB docking station storage | $1,769.00 | The RTX 5070 A16 is cheaper at $1,628.00. | Same listing family as the next row. |
-| GIGABYTE A16, RTX 5060, 2TB SSD + 1TB docking station storage | $1,849.00 | I preferred the cheaper RTX 5070 A16. | [Link](https://www.amazon.com/dp/B0HDSLL6GD?th=1) |
-| MSI Katana i7, RTX 5070, 1TB SSD + 1TB docking station bundle | $2,129.00 | I preferred the $1,949.00 Katana listing. | [Link](https://www.amazon.com/dp/B0G2RLT3LY?th=1) |
-| Lenovo Legion Pro, RTX 5070 Ti | $3,929.00 | Too expensive for me to recommend here. | [Alternate listing](https://www.amazon.com/dp/B0HFWT37LH) |
-
 Prices are in USD and may change. Specs are as listed on Amazon. Prime availability for the $2,099 Vector was noted when comparing the listings.
