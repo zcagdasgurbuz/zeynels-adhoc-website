@@ -2,15 +2,30 @@
 
 A buildless static webpage with three personal recommendations, 11 price-sorted laptop configurations, Amazon links, and a downloadable Markdown list.
 
-## Cloudflare Pages
+## Cloudflare Workers
 
-1. In Cloudflare, open **Workers & Pages**, create a **Pages** project, and choose **Connect to Git**.
-2. Authorize GitHub and select this repository.
-3. Set the production branch to `main`.
-4. Select **None** for the framework preset, leave the build command empty, and set the build output directory to `/` (the repository root).
-5. Deploy. Cloudflare supplies a `pages.dev` address and automatically deploys future pushes to `main`.
+The existing site is deployed at https://zeynels-adhoc-website.zcagdasgurbuz.workers.dev/ using Workers Static Assets.
 
-There are no dependencies, backend, environment variables, or API keys.
+In the Worker's **Settings > Builds**, connect the GitHub repository and use:
+
+| Setting | Value |
+| --- | --- |
+| Production branch | `main` |
+| Build command | Leave blank |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | `/` |
+
+`wrangler.json` identifies the existing Worker and the static assets directory. `.assetsignore` allows only the four public site files to be uploaded.
+
+After GitHub is connected, a new push to `main` triggers deployment. The dashboard's **New deployment** button opens the manual file uploader, not a Git build. Builds can be inspected from the deployment's **Build** link.
+
+To deploy directly from a local terminal instead:
+
+```sh
+npx wrangler deploy
+```
+
+There are no application dependencies, backend, or runtime environment variables. Deployment uses the Cloudflare account's configured build credentials, or local Wrangler sign-in.
 
 ## Contents
 
