@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My gaming laptop shortlist: three personal picks, prices, specs, and Amazon links.">
+  <meta name="theme-color" content="#10231e">
+  <title>Gaming laptop shortlist</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the shortlist</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Gaming laptop shortlist home"><span class="brand-mark" aria-hidden="true">Z</span> THE SHORTLIST</a>
+    <nav aria-label="Main navigation"><a href="#picks">My top 3</a><a href="#compare">All options</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">GAMING LAPTOPS / NOVEMBER 2026</p>
+      <h1>A few good options.<br><span>Here's what I'd pick.</span></h1>
+      <p class="intro-copy">Three picks for different budgets, followed by every laptop I compared. All have 32GB RAM and a 1TB SSD.</p>
+      <div class="intro-facts"><span>Amazon links only</span><span>Prices in USD</span><span>11 configurations compared</span></div>
+    </section>
+
+    <section id="picks" class="picks-section" aria-labelledby="picks-title">
+      <div class="section-heading"><div><p class="eyebrow">WHERE I'D START</p><h2 id="picks-title">My top three</h2></div><p>In order of preference.</p></div>
+
+      <article class="pick featured">
+        <div class="pick-main">
+          <div class="pick-kicker"><span class="rank">01</span><span>MY FIRST CHOICE</span><span class="prime-label">Prime</span></div>
+          <h3>MSI Vector<br>16 HX AI</h3>
+          <p class="pick-description">This is the one I'd choose. For $150 more than the Katana, I'd take the stronger RTX 5070 Ti graphics.</p>
+          <div class="price-row"><strong class="price">$2,099<span>.00</span></strong><span class="price-note">32GB RAM / 1TB SSD</span></div>
+          <a class="button button-light" href="https://www.amazon.com/dp/B0G52NFXQR?th=1" target="_blank" rel="noopener noreferrer">View on Amazon<span class="sr-only"> (opens a new tab)</span></a>
+        </div>
+        <div class="featured-specs">
+          <div class="gpu-callout"><span class="eyebrow">GRAPHICS</span><strong>RTX 5070 Ti</strong><span>12GB graphics memory</span></div>
+          <dl class="spec-list">
+            <div><dt>Processor</dt><dd>Core Ultra 7 255HX</dd></div>
+            <div><dt>Display</dt><dd>16-inch, 1920 x 1200</dd></div>
+            <div><dt>Refresh rate</dt><dd>144Hz</dd></div>
+            <div><dt>Memory &amp; storage</dt><dd>32GB DDR5 / 1TB SSD</dd></div>
+          </dl>
+          <p class="feature-note">Saves $170 over the other Vector below, with a lower-resolution 144Hz screen instead of QHD+ 240Hz.</p>
+        </div>
+      </article>
+
+      <div class="secondary-picks">
+        <article class="pick secondary">
+          <div class="pick-kicker"><span class="rank">02</span><span>MY MIDDLE-BUDGET PICK</span></div>
+          <h3>MSI Katana 15 HX <span>Core i7</span></h3>
+          <p class="pick-description">A good balance of price and specs. I'd choose this to spend less than the Vector while keeping a sharper QHD screen.</p>
+          <ul class="spec-chips" aria-label="Key specifications"><li>RTX 5070</li><li>i7-14650HX</li><li>QHD / 165Hz</li></ul>
+          <div class="card-bottom"><strong class="price">$1,949<span>.00</span></strong><a class="button button-outline" href="https://www.amazon.com/dp/B0G5PWQNSG?th=1" target="_blank" rel="noopener noreferrer">View on Amazon<span class="sr-only"> (opens a new tab)</span></a></div>
+        </article>
+        <article class="pick secondary">
+          <div class="pick-kicker"><span class="rank">03</span><span>MY LOWER-COST PICK</span></div>
+          <h3>GIGABYTE Gaming A16</h3>
+          <p class="pick-description">Saves $471 compared with the Vector. The screen is more basic, and I wouldn't expect a big performance jump over every RTX 5060 laptop.</p>
+          <ul class="spec-chips" aria-label="Key specifications"><li>RTX 5070</li><li>i7-13620H</li><li>1920 x 1200 / 165Hz</li></ul>
+          <div class="card-bottom"><strong class="price">$1,628<span>.00</span></strong><a class="button button-outline" href="https://www.amazon.com/dp/B0FDM3M1WF" target="_blank" rel="noopener noreferrer">View on Amazon<span class="sr-only"> (opens a new tab)</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="compare" class="comparison-section" aria-labelledby="compare-title">
+      <div class="section-heading"><div><p class="eyebrow">THE FULL PICTURE</p><h2 id="compare-title">Everything I compared</h2></div><p>Lowest to highest price.</p></div>
+      <div class="comparison-toolbar">
+        <p><strong>32GB RAM + 1TB SSD</strong> in every configuration.</p>
+        <div class="filter-control"><label for="gpu-filter">Graphics</label><select id="gpu-filter"><option value="all">All GPUs</option><option value="5060">RTX 5060</option><option value="5070">RTX 5070</option><option value="5070-ti">RTX 5070 Ti</option></select></div>
+      </div>
+      <p id="results-count" class="results-count" role="status">Showing all 11 configurations</p>
+      <div class="table-wrapper">
+        <table class="comparison-table">
+          <caption class="sr-only">Gaming laptops in ascending price order, with Amazon product links</caption>
+          <thead><tr><th scope="col">Laptop</th><th scope="col">Graphics</th><th scope="col">Processor</th><th scope="col">Display</th><th scope="col">Price</th><th scope="col"><span class="sr-only">Amazon listing</span></th></tr></thead>
+          <tbody>
+            <tr data-gpu="5060"><th scope="row">Acer Nitro V 16S <small>2026</small></th><td data-label="Graphics">RTX 5060</td><td data-label="Processor">Ryzen 7 260</td><td data-label="Display">16-inch, 1920 x 1200 <small>180Hz</small></td><td class="table-price" data-label="Price">$1,549.99</td><td class="table-action"><a href="https://www.amazon.com/dp/B0H8D7Z3LF?th=1" target="_blank" rel="noopener noreferrer" aria-label="Acer Nitro V 16S on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5070" class="chosen"><th scope="row">GIGABYTE Gaming A16 <small class="pick-tag">3rd pick</small></th><td data-label="Graphics">RTX 5070</td><td data-label="Processor">Core i7-13620H</td><td data-label="Display">16-inch, 1920 x 1200 <small>165Hz</small></td><td class="table-price" data-label="Price">$1,628.00</td><td class="table-action"><a href="https://www.amazon.com/dp/B0FDM3M1WF" target="_blank" rel="noopener noreferrer" aria-label="GIGABYTE Gaming A16 on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5060"><th scope="row">Lenovo Legion 5a <small>2026</small></th><td data-label="Graphics">RTX 5060</td><td data-label="Processor">Ryzen 7 250</td><td data-label="Display">15.3-inch WQXGA OLED <small>165Hz</small></td><td class="table-price" data-label="Price">$1,699.99</td><td class="table-action"><a href="https://www.amazon.com/dp/B0GNB91TWT?th=1" target="_blank" rel="noopener noreferrer" aria-label="Lenovo Legion 5a on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5070" class="chosen"><th scope="row">MSI Katana 15 HX <small class="pick-tag">2nd pick</small></th><td data-label="Graphics">RTX 5070</td><td data-label="Processor">Core i7-14650HX</td><td data-label="Display">15.6-inch QHD <small>165Hz / 100% DCI-P3</small></td><td class="table-price" data-label="Price">$1,949.00</td><td class="table-action"><a href="https://www.amazon.com/dp/B0G5PWQNSG?th=1" target="_blank" rel="noopener noreferrer" aria-label="MSI Katana Core i7 on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5070-ti" class="chosen"><th scope="row">MSI Vector 16 HX AI <small class="pick-tag">1st pick / Prime</small></th><td data-label="Graphics">RTX 5070 Ti</td><td data-label="Processor">Core Ultra 7 255HX</td><td data-label="Display">16-inch WUXGA IPS <small>1920 x 1200 / 144Hz</small></td><td class="table-price" data-label="Price">$2,099.00</td><td class="table-action"><a href="https://www.amazon.com/dp/B0G52NFXQR?th=1" target="_blank" rel="noopener noreferrer" aria-label="MSI Vector 144Hz Prime listing on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5070"><th scope="row">MSI Katana 15 HX <small>B14WGK-016US / Core i9</small></th><td data-label="Graphics">RTX 5070</td><td data-label="Processor">Core i9-14900HX</td><td data-label="Display">15.6-inch QHD+ <small>165Hz</small></td><td class="table-price" data-label="Price">$2,142.14</td><td class="table-action"><a href="https://www.amazon.com/dp/B0DZFVBQLK" target="_blank" rel="noopener noreferrer" aria-label="MSI Katana Core i9 on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5070"><th scope="row">Alienware 16 Aurora <small>AC16250</small></th><td data-label="Graphics">RTX 5070</td><td data-label="Processor">Core 9 270H</td><td data-label="Display">16-inch, 2560 x 1600 <small>120Hz / 300 nits</small></td><td class="table-price" data-label="Price">$2,199.98</td><td class="table-action"><a href="https://www.amazon.com/dp/B0GTZJ6YM6?th=1" target="_blank" rel="noopener noreferrer" aria-label="Alienware 16 Aurora on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5070-ti"><th scope="row">MSI Vector 16 HX AI <small>QHD+ screen alternative</small></th><td data-label="Graphics">RTX 5070 Ti</td><td data-label="Processor">Core Ultra 7 255HX</td><td data-label="Display">16-inch QHD+ IPS <small>240Hz</small></td><td class="table-price" data-label="Price">$2,269.00</td><td class="table-action"><a href="https://www.amazon.com/dp/B0GC5KVJKH" target="_blank" rel="noopener noreferrer" aria-label="MSI Vector QHD 240Hz on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5070"><th scope="row">Lenovo Legion 5 <small>15IRX10</small></th><td data-label="Graphics">RTX 5070 8GB</td><td data-label="Processor">Core i9-14900HX</td><td data-label="Display">15.1-inch WQXGA OLED</td><td class="table-price" data-label="Price">$2,386.79</td><td class="table-action"><a href="https://www.amazon.com/dp/B0FHXGDZ5Q" target="_blank" rel="noopener noreferrer" aria-label="Lenovo Legion 5 Core i9 on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5070"><th scope="row">ASUS ROG Strix G16 <small>Ryzen configuration</small></th><td data-label="Graphics">RTX 5070</td><td data-label="Processor">Ryzen 9 9955HX</td><td data-label="Display">16-inch 2.5K IPS <small>300Hz</small></td><td class="table-price" data-label="Price">$2,599.00</td><td class="table-action"><a href="https://www.amazon.com/dp/B0H5V1FR3D" target="_blank" rel="noopener noreferrer" aria-label="ASUS ROG Strix Ryzen on Amazon, opens a new tab">Amazon</a></td></tr>
+            <tr data-gpu="5070-ti"><th scope="row">ASUS ROG Strix G16 <small>G615LR-AS96 / Intel</small></th><td data-label="Graphics">RTX 5070 Ti</td><td data-label="Processor">Core Ultra 9 275HX</td><td data-label="Display">16-inch 2.5K <small>240Hz</small></td><td class="table-price" data-label="Price">$2,599.00</td><td class="table-action"><a href="https://www.amazon.com/dp/B0DW1X5YCQ" target="_blank" rel="noopener noreferrer" aria-label="ASUS ROG Strix Intel on Amazon, opens a new tab">Amazon</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="ruled-out" aria-label="Other listings considered">
+      <details>
+        <summary>Other listings I ruled out<span class="details-symbol" aria-hidden="true">+</span></summary>
+        <div class="ruled-content">
+          <p><strong>GIGABYTE A16 RTX 5060 docking bundles:</strong> $1,769 for the 1TB laptop SSD version, or $1,849 for the 2TB version. I preferred the cheaper $1,628 RTX 5070 A16. <a href="https://www.amazon.com/dp/B0HDSLL6GD?th=1" target="_blank" rel="noopener noreferrer">Amazon listing</a>.</p>
+          <p><strong>MSI Katana i7 docking bundle:</strong> $2,129. I preferred the $1,949 listing. <a href="https://www.amazon.com/dp/B0G2RLT3LY?th=1" target="_blank" rel="noopener noreferrer">Amazon listing</a>.</p>
+          <p><strong>Lenovo Legion Pro RTX 5070 Ti:</strong> $3,929. Too expensive for me to recommend here. <a href="https://www.amazon.com/dp/B0HFWT37LH" target="_blank" rel="noopener noreferrer">Amazon listing</a>.</p>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Prices noted November 22, 2026. Prices and Prime availability may change. Specs are as listed on Amazon.</p><a href="gaming-laptop-recommendations.md" download>Download the Markdown list</a></footer>
+</body>
+</html>
